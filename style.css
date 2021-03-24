@@ -1117,3 +1117,16 @@ h4 {
 iframe {
     padding-top: 15px;
 }
+
+
+@media (max-width: 400px) {
+    .col-sm-6 a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    iframe {
+        height: 360px;
+        width: 360px;
+    }
+}
